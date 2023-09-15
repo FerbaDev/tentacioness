@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-white: #ececec;
+  --clr-black: #1c1c1c;
+  --clr-red: #a01717;
+  --clr-blue: #243491;
+  --ff-title: "Dela Gothic One", sans-serif;
+  --ff-text: "Rubik", sans-serif;
+}
