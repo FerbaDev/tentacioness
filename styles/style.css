@@ -15,7 +15,9 @@
   --clr-blue: #243491;
   --ff-title: "Dela Gothic One", sans-serif;
   --ff-text: "Rubik", sans-serif;
+  --navbar-color: #1c1c1c;
 }
+
 body {
   background-color: var(--white);
   color: var(--black);
