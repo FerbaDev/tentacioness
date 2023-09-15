@@ -21,13 +21,13 @@
 body {
   background-color: var(--white);
   color: var(--black);
-  min-height: 100vh;
 }
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 90vh;
 }
 a {
   text-decoration: none;
