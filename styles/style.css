@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600&display=swap");
+
 *,
 *::before,
 *::after {
@@ -7,10 +9,36 @@
 }
 
 :root {
-  --clr-white: #ececec;
-  --clr-black: #1c1c1c;
+  --white: #ececec;
+  --black: #1c1c1c;
   --clr-red: #a01717;
   --clr-blue: #243491;
   --ff-title: "Dela Gothic One", sans-serif;
   --ff-text: "Rubik", sans-serif;
+}
+body {
+  background-color: var(--white);
+  color: var(--black);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+h1 {
+  font-family: var(--ff-title);
+}
+p {
+  font-family: var(--ff-text);
 }
