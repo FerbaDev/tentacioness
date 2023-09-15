@@ -21,12 +21,12 @@
 body {
   background-color: var(--white);
   color: var(--black);
+  min-height: 100vh;
 }
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   flex-direction: column;
 }
 a {
