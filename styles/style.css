@@ -106,9 +106,12 @@ p {
   gap: 1em;
   list-style: none;
 }
-.menu button {
-  border: none;
+.boton-menu {
   background-color: var(--black);
   color: var(--white);
   padding-inline: 10px;
+}
+.boton-menu.active {
+  background-color: var(--white);
+  color: var(--black);
 }
