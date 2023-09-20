@@ -98,3 +98,17 @@ p {
     animation-timing-function: ease-out;
   }
 }
+
+/****************** catálogo **********************/
+
+.menu {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+.menu button {
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  padding-inline: 10px;
+}
