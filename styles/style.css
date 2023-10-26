@@ -11,16 +11,16 @@
 :root {
   --white: #ececec;
   --black: #1c1c1c;
-  --clr-red: #a01717;
-  --clr-blue: #243491;
   --ff-title: "Dela Gothic One", sans-serif;
   --ff-text: "Rubik", sans-serif;
-  --navbar-color: #1c1c1c;
 }
-
+html {
+  overflow-y: hidden;
+}
 body {
   background-color: var(--white);
   color: var(--black);
+  max-width: 100%;
 }
 main {
   display: flex;
@@ -44,6 +44,8 @@ h1 {
 p {
   font-family: var(--ff-text);
 }
+
+/******************* efectos *************************************/
 .puff-in-center {
   animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
@@ -98,7 +100,44 @@ p {
     animation-timing-function: ease-out;
   }
 }
+/************* banner **************************/
+header {
+  max-width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding: 70px 50px 30px 50px;
+}
+.banner-texto h2 {
+  text-transform: uppercase;
+  font-family: var(--ff-title);
+}
+.banner-texto p {
+  font-weight: bold;
+}
+.banner-fotos-container {
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.banner-fotos-container img {
+  object-fit: contain;
+  height: 250px;
+}
 
+/*********************** navbar *******************************/
+.navbar {
+  background-color: #f6fdfd;
+}
 /****************** catálogo **********************/
 
 .menu {

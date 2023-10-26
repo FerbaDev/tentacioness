@@ -16,41 +16,81 @@
   <body>
     <!-- ******************** HEADER ***************************** -->
     <header>
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between border-bottom px-3"
-        id="top"
-      >
-        <a class="navbar-brand" href="index.html">Logo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active text-end">
-              <a class="nav-link" href="./index.html"
-                >Home <span class="sr-only"></span>
-              </a>
-            </li>
-            <li class="nav-item active text-end">
-              <a class="nav-link" href="./pages/quienesSomos.html"
-                >Quienes somos
-              </a>
-            </li>
-            <li class="nav-item text-end">
-              <a class="nav-link" href="./pages/catalogo.html">Catálogo</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="banner-texto">
+        <h2>Tendencias que inspiran, calidad que perdura.</h2>
+        <p>Moda para todas las edades, estilos y tallas.</p>
+      </div>
+      <div class="banner-fotos-container">
+        <img src="./imagenes/banner1.jpeg" alt="" />
+        <img src="./imagenes/banner2.jpeg" alt="" />
+        <img src="./imagenes/banner3.jpeg" alt="" />
+      </div>
     </header>
+
+    <!-- ******************** NAVBAR ***************************** -->
+
+    <nav
+      class="navbar navbar-expand-lg justify-content-end border-bottom px-3"
+      id="top"
+    >
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item text-end">
+            <a
+              class="nav-link"
+              href="./pages/catalogo.html"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >Mujer</a
+            >
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/catalogo.html">Hombre</a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/catalogo.html">Niños</a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="./pages/catalogo.html"
+              >Fragacias y Sahumerios</a
+            >
+          </li>
+          <li class="nav-item active text-end">
+            <a class="nav-link" href="./pages/quienesSomos.html">Nosotras </a>
+          </li>
+          <li class="nav-item text-end">
+            <a class="nav-link" href="">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ******************** collapse ******************* -->
+    <div
+      class="collapse navbar navbar-expand-lg justify-content-end border-bottom"
+      id="navbarToggleExternalContent"
+    >
+      <div class="p-2">
+        <span class="text-body-secondary"
+          >Toggleable via the navbar brand.</span
+        >
+      </div>
+    </div>
+
     <main>
       <h1 class="puff-in-center">Tentacioness</h1>
       <p class="bounce-in-bottom">página en construcción</p>
