@@ -29,11 +29,7 @@
 
     <!-- ******************** NAVBAR ***************************** -->
 
-    <nav
-      class="navbar navbar-expand-lg justify-content-end border-bottom px-3"
-      id="top"
-    >
-      <a class="navbar-brand" href="index.html">Inicio</a>
+    <!-- <a class="navbar-brand" href="index.html">Inicio</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -48,16 +44,7 @@
       <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item text-end">
-            <a
-              class="nav-link"
-              href="./pages/catalogo.html"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              >Mujer</a
-            >
+            <a class="nav-link" href="./pages/catalogo.html">Mujer</a>
           </li>
           <li class="nav-item text-end">
             <a class="nav-link" href="./pages/catalogo.html">Hombre</a>
@@ -77,20 +64,127 @@
             <a class="nav-link" href="">Contacto</a>
           </li>
         </ul>
-      </div>
-    </nav>
-    <!-- ******************** collapse ******************* -->
-    <div
-      class="collapse navbar navbar-expand-lg justify-content-end border-bottom"
-      id="navbarToggleExternalContent"
+      </div> -->
+    <ul
+      class="bg-white p-1 nav nav-pills border-bottom justify-content-end"
+      id="pills-tab"
+      role="tablist"
     >
-      <div class="p-2">
-        <span class="text-body-secondary"
-          >Toggleable via the navbar brand.</span
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="pills-home-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-home"
+          type="button"
+          role="tab"
+          aria-controls="pills-home"
+          aria-selected="true"
         >
+          Home
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-mujer-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-mujer"
+          type="button"
+          role="tab"
+          aria-controls="pills-mujer"
+          aria-selected="false"
+        >
+          Mujer
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-contact-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-contact"
+          type="button"
+          role="tab"
+          aria-controls="pills-contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-disabled-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-disabled"
+          type="button"
+          role="tab"
+          aria-controls="pills-disabled"
+          aria-selected="false"
+        >
+          Disabled
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content text-end" id="pills-tabContent">
+      <!-- <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          ...
+        </div> -->
+      <div
+        class="tab-pane fade p-3 bg-white"
+        id="pills-mujer"
+        role="tabpanel"
+        aria-labelledby="pills-mujer-tab"
+        tabindex="0"
+      >
+        <ul class="navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Remeras</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Pantalones</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Faldas</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Vestidos</a>
+          </li>
+          <li class="nav-item active text-end px-2">
+            <a class="nav-link" href="./pages/quienesSomos.html"
+              >Ropa interior</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+        tabindex="0"
+      >
+        ...
+      </div>
+      <div
+        class="tab-pane fade"
+        id="pills-disabled"
+        role="tabpanel"
+        aria-labelledby="pills-disabled-tab"
+        tabindex="0"
+      >
+        ...
       </div>
     </div>
 
+    <!-- *************************** acá empieza el main ******************************* -->
     <main>
       <h1 class="puff-in-center">Tentacioness</h1>
       <p class="bounce-in-bottom">página en construcción</p>
