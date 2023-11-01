@@ -122,6 +122,9 @@ header {
 /********************** MEDIA QUERIES ****************************/
 @media screen and (max-width: 600px) {
   /************* banner **************************/
+  .navbar {
+    background-color: var(--white);
+  }
   header {
     justify-content: center;
   }
@@ -145,6 +148,7 @@ header {
     flex-direction: row;
   }
   .redes {
+    height: auto;
     justify-content: flex-start;
     align-items: center;
     width: 15%;
