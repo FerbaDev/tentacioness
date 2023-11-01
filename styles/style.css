@@ -149,13 +149,13 @@ header {
     align-items: center;
     width: 15%;
     padding-left: 0;
+    gap: 2em;
   }
   .redes li {
     list-style: none;
   }
   .bi {
-    font-size: 1em;
-    padding-inline: 10px;
+    font-size: 2em;
   }
   .container-hero {
     background-color: #fffafa;
