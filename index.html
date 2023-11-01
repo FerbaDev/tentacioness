@@ -24,21 +24,33 @@
         <p>Moda para todas las edades, estilos y tallas.</p>
       </div>
       <div class="banner-fotos-container">
-        <img src="./imagenes/banner1.jpeg" alt="" />
-        <img src="./imagenes/banner2.jpeg" alt="" />
-        <img src="./imagenes/banner3.jpeg" alt="" />
+        <img
+          src="./imagenes/banner1.jpeg"
+          alt=""
+          class="d-none d-sm-none d-md-block"
+        />
+        <img
+          src="./imagenes/banner2.jpeg"
+          alt=""
+          class="d-none d-sm-none d-md-block d-lg-block"
+        />
+        <img
+          src="./imagenes/banner3.jpeg"
+          alt=""
+          class="d-none d-md-none d-lg-block"
+        />
       </div>
     </header>
 
     <!-- ******************** NAVBAR ***************************** -->
     <ul
-      class="bg-white py-1 px-4 nav nav-underline border-bottom justify-content-end"
+      class="bg-white py-1 px-4 nav nav-underline border-bottom justify-content-end d-none d-sm-none d-md-none d-lg-flex"
       id="pills-tab"
       role="tablist"
     >
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link active"
+          class="nav-link active text-dark"
           id="pills-home-tab"
           data-bs-toggle="pill"
           data-bs-target="#pills-home"
@@ -47,12 +59,12 @@
           aria-controls="pills-home"
           aria-selected="true"
         >
-          Home
+          Inicio
         </button>
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
+          class="nav-link text-dark"
           id="pills-mujer-tab"
           data-bs-toggle="pill"
           data-bs-target="#pills-mujer"
@@ -66,33 +78,76 @@
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
-          id="pills-contact-tab"
+          class="nav-link text-dark"
+          id="pills-hombre-tab"
           data-bs-toggle="pill"
-          data-bs-target="#pills-contact"
+          data-bs-target="#pills-hombre"
           type="button"
           role="tab"
-          aria-controls="pills-contact"
+          aria-controls="pills-hombre"
           aria-selected="false"
         >
-          Contact
+          Hombre
         </button>
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link"
-          id="pills-disabled-tab"
+          class="nav-link text-dark"
+          id="pills-ninios-tab"
           data-bs-toggle="pill"
-          data-bs-target="#pills-disabled"
+          data-bs-target="#pills-ninios"
           type="button"
           role="tab"
-          aria-controls="pills-disabled"
+          aria-controls="pills-ninios"
           aria-selected="false"
         >
-          Disabled
+          Niños
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link text-dark"
+          id="pills-fragancias-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-fragancias"
+          type="button"
+          role="tab"
+          aria-controls="pills-fragancias"
+          aria-selected="false"
+        >
+          Fragancias y Sahumerios
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link text-dark"
+          id="pills-nosotras-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-nosotras"
+          type="button"
+          role="tab"
+          aria-controls="pills-nosotras"
+          aria-selected="false"
+        >
+          Nosotras
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link text-dark"
+          id="pills-contacto-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-contacto"
+          type="button"
+          role="tab"
+          aria-controls="pills-contacto"
+          aria-selected="false"
+        >
+          Contacto
         </button>
       </li>
     </ul>
+    <!-- ************* ACÄ EMPIEZAN LOS PILLS ********************* -->
     <div class="tab-content text-end" id="pills-tabContent">
       <div
         class="tab-pane fade px-3 py-1 bg-white"
@@ -122,24 +177,96 @@
         </ul>
       </div>
       <div
-        class="tab-pane fade"
-        id="pills-contact"
+        class="tab-pane fade px-3 py-1 bg-white"
+        id="pills-hombre"
         role="tabpanel"
-        aria-labelledby="pills-contact-tab"
+        aria-labelledby="pills-hombre-tab"
         tabindex="0"
       >
-        ...
+        <ul class="navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Remeras</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Pantalones</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Buzos</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Camperas</a>
+          </li>
+        </ul>
       </div>
       <div
-        class="tab-pane fade"
-        id="pills-disabled"
+        class="tab-pane fade px-3 py-1 bg-white"
+        id="pills-ninios"
         role="tabpanel"
-        aria-labelledby="pills-disabled-tab"
+        aria-labelledby="pills-ninios-tab"
         tabindex="0"
       >
-        ...
+        <ul class="navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Remeras</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Pantalones</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Buzos</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Camperas</a>
+          </li>
+          <li class="nav-item active text-end px-2">
+            <a class="nav-link" href="./pages/quienesSomos.html"
+              >Ropa interior</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="tab-pane fade px-3 py-1 bg-white"
+        id="pills-fragancias"
+        role="tabpanel"
+        aria-labelledby="pills-fragancias-tab"
+        tabindex="0"
+      >
+        <ul class="navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Fragancias</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Sahumerios</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html"
+              >Aceites esenciales</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div
+        class="tab-pane fade px-3 py-1 bg-white"
+        id="pills-contacto"
+        role="tabpanel"
+        aria-labelledby="pills-contacto-tab"
+        tabindex="0"
+      >
+        <ul class="navbar-nav d-flex flex-row justify-content-end">
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">WhatsApp</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Instagram</a>
+          </li>
+          <li class="nav-item text-end px-2">
+            <a class="nav-link" href="./pages/catalogo.html">Google Maps</a>
+          </li>
+        </ul>
       </div>
     </div>
+    <!-- *************************** NAVBAR PARA CELU ******************************* -->
 
     <!-- *************************** acá empieza el main ******************************* -->
     <main>

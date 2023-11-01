@@ -118,3 +118,47 @@ header {
   background-color: var(--white);
   color: var(--black);
 }
+
+/********************** MEDIA QUERIES ****************************/
+@media screen and (max-width: 600px) {
+  /************* banner **************************/
+  header {
+    justify-content: center;
+  }
+  .banner-texto {
+    width: 90%;
+    height: 100%;
+    padding: 30px 20px 5px 20px;
+  }
+  .banner-texto h2 {
+    text-transform: uppercase;
+    font-family: var(--ff-title);
+  }
+  .banner-texto p {
+    font-weight: bold;
+  }
+  /*********************** main *******************************/
+  /*********************** HERO *******************************/
+  .hero {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .redes {
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+    padding-left: 0;
+  }
+  .redes li {
+    list-style: none;
+  }
+  .bi {
+    font-size: 1em;
+    padding-inline: 10px;
+  }
+  .container-hero {
+    background-color: #fffafa;
+    width: 85%;
+  }
+}
