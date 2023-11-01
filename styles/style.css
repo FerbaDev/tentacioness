@@ -232,8 +232,41 @@ h2.linea span {
     background-color: #fffafa;
     width: 85%;
   }
+  /********* ofertas ****************/
   .ofertas-titulo {
     font-size: 1.2em;
     margin-top: 15px;
+  }
+  /*************** bannner ofertas ************************/
+
+  .imagen-ofertas {
+    height: 200px;
+    width: 150px;
+    display: flex;
+  }
+  .img-ofertas-1 {
+    background-image: url("../imagenes/ofertas1.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .ofertas-titulo-1 {
+    background-color: var(--white);
+    padding: 5px 0 5px 10px;
+    height: fit-content;
+  }
+  .img-ofertas-2 {
+    background-image: url("../imagenes/ofertas2.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .ofertas-titulo-2 {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px 10px 5px 0;
+    height: fit-content;
   }
 }
