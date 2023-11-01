@@ -15,7 +15,7 @@
   --ff-text: "Rubik", sans-serif;
 }
 html {
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 body {
   background-color: var(--white);
@@ -78,7 +78,7 @@ header {
 /*********************** main *******************************/
 /*********************** HERO *******************************/
 .hero {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -101,6 +101,7 @@ header {
   background-color: #fffafa;
   width: 85%;
 }
+/****************** SECCION OFERTAS ******************/
 .ofertas-titulo {
   font: 33px var(--ff-title);
   margin-top: 30px;
@@ -123,8 +124,47 @@ header {
   z-index: -1;
 }
 h2.linea span {
-  background: #fff;
+  background: #fffafa;
   padding: 0 15px;
+}
+/*************** bannner ofertas ************************/
+.ofertas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-container {
+  display: flex;
+}
+.imagen-ofertas {
+  height: 500px;
+  width: 353px;
+  display: flex;
+}
+.img-ofertas-1 {
+  background-image: url("../imagenes/ofertas1.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.ofertas-titulo-1 {
+  background-color: var(--white);
+  padding: 5px 0 5px 10px;
+  height: fit-content;
+}
+.img-ofertas-2 {
+  background-image: url("../imagenes/ofertas2.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.ofertas-titulo-2 {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 5px 10px 5px 0;
+  height: fit-content;
 }
 /****************** catálogo **********************/
 
@@ -191,5 +231,9 @@ h2.linea span {
   .container-hero {
     background-color: #fffafa;
     width: 85%;
+  }
+  .ofertas-titulo {
+    font-size: 1.2em;
+    margin-top: 15px;
   }
 }
