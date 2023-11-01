@@ -101,7 +101,31 @@ header {
   background-color: #fffafa;
   width: 85%;
 }
-
+.ofertas-titulo {
+  font: 33px var(--ff-title);
+  margin-top: 30px;
+  text-align: center;
+}
+.linea {
+  position: relative;
+  z-index: 1;
+}
+.linea:before {
+  border-top: 2px solid #000000;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 95%;
+  z-index: -1;
+}
+h2.linea span {
+  background: #fff;
+  padding: 0 15px;
+}
 /****************** catálogo **********************/
 
 .menu {
@@ -124,6 +148,9 @@ header {
   /************* banner **************************/
   .navbar {
     background-color: var(--white);
+  }
+  .navbar-brand {
+    font-family: var(--ff-title);
   }
   header {
     justify-content: center;
