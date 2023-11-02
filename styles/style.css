@@ -257,7 +257,7 @@ h2.linea span {
   /*************** bannner ofertas ************************/
 
   .imagen-ofertas {
-    height: 200px;
+    height: 250px;
     width: 150px;
     display: flex;
   }
@@ -265,8 +265,8 @@ h2.linea span {
     background-image: url("../imagenes/ofertas1.png");
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: end;
+    align-items: end;
+    justify-content: center;
   }
   .ofertas-titulo-1 {
     background-color: var(--white);
@@ -277,13 +277,29 @@ h2.linea span {
     background-image: url("../imagenes/ofertas2.png");
     background-size: cover;
     display: flex;
-    align-items: center;
-    justify-content: start;
+    align-items: start;
+    justify-content: center;
   }
   .ofertas-titulo-2 {
     background-color: var(--black);
     color: var(--white);
     padding: 5px 10px 5px 0;
     height: fit-content;
+  }
+  .ofertas-div-centro {
+    height: 120px;
+    font-weight: bolder;
+    padding-inline: 3px;
+  }
+  .of-p-1 {
+    color: var(--white);
+  }
+  .of-tit-25 {
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 0;
+  }
+  .ofertas-p {
+    font-size: 1.5em;
   }
 }
