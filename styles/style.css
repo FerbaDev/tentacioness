@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.5s ease-out;
 }
 
 :root {
@@ -110,6 +111,7 @@ header {
   font: 33px var(--ff-title);
   margin-top: 30px;
   text-align: center;
+  text-transform: uppercase;
 }
 .linea {
   position: relative;
@@ -305,13 +307,19 @@ h2.linea span {
     background-color: #fffafa;
     width: 100%;
   }
+  .hero-card {
+    padding-block: 20px;
+  }
   /********* ofertas ****************/
   .ofertas-titulo {
     font-size: 1.2em;
-    margin-top: 15px;
+    padding-block: 5px;
+    margin-top: 0;
   }
   /*************** bannner ofertas ************************/
-
+  .linea:before {
+    border: none;
+  }
   .imagen-ofertas {
     height: 250px;
     width: 150px;
@@ -360,6 +368,7 @@ h2.linea span {
   }
   /****************** SECCION TIENDA ******************/
   .foto-category {
+    width: 27%;
     height: 200px;
   }
   .cat-texto {
@@ -367,5 +376,8 @@ h2.linea span {
   }
   .foto-category p {
     font-size: 0.8em;
+  }
+  .cat-fragancias {
+    display: none;
   }
 }
