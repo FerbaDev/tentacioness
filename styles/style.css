@@ -400,4 +400,16 @@ h2.linea span {
   .cat-fragancias {
     display: none;
   }
+  /***************** NOSOTRAS ************************/
+  .nosotras-container {
+    padding-block: 20px;
+  }
+  .img-nosotras {
+    height: 200px;
+    width: 200px;
+  }
+  .nos-texto {
+    padding-inline: 20px;
+    padding-block: 50px;
+  }
 }
