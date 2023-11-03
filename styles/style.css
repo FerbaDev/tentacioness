@@ -251,6 +251,26 @@ h2.linea span {
   background-size: cover;
   background-position: center;
 }
+/***************** NOSOTRAS ************************/
+.nosotras-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+}
+.img-nosotras {
+  background-image: url("../imagenes/nosotras.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.nos-texto {
+  padding-inline: 80px;
+  padding-block: 50px;
+}
 
 /****************** catálogo **********************/
 
