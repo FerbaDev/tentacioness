@@ -236,8 +236,8 @@ h2.linea span {
 }
 .cat-hombres {
   background-image: url("../imagenes/category-hombres.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .cat-ninios {
   background-image: url("../imagenes/category-niños.jfif");
@@ -248,61 +248,7 @@ h2.linea span {
   background-image: url("../imagenes/category-fragancias.jfif");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
-
-/* .contenedor-card {
-  background: white;
-  position: relative;
-  object-fit: cover;
-  overflow: hidden;
-  font-size: 14px;
-  width: 20%;
-  height: 400px;
-}
-.img-category {
-  object-fit: cover;
-  display: block;
-  transition: all 1s;
-  filter: grayscale(1);
-}
-.img-category:hover {
-  filter: grayscale(0);
-}
-.descripcion {
-  padding: 50px;
-  position: absolute;
-  top: 300px;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: all 0.5s;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-shadow: 2px 2px 4px #080659;
-}
-.descripcion-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  color: white;
-  text-shadow: 2px 2px 4px #080659;
-}
-.contenedor-card:hover .descripcion {
-  visibility: visible;
-  opacity: 1;
-  transition: all 0.5s;
-  transform: translateY(-300px);
-
-}
-
-.contenedor-card .img-category {
-  transition: all 1s;
-} */
 
 /****************** catálogo **********************/
 
