@@ -44,6 +44,7 @@ p {
 }
 
 /************* banner **************************/
+
 header {
   max-width: 100%;
   height: 250px;
@@ -95,21 +96,27 @@ header {
 .redes li {
   list-style: none;
 }
-.bi {
+
+.facebook {
+  position: fixed;
+  top: 50%;
+  color: rgb(43, 96, 254);
   font-size: 2em;
   padding-inline: 20px;
 }
-.bi-facebook {
-  position: fixed;
-  top: 50%;
-}
-.bi-instagram {
+.instagram {
   position: fixed;
   top: 60%;
+  color: rgb(242, 92, 177);
+  font-size: 2em;
+  padding-inline: 20px;
 }
-.bi-whatsapp {
+.whatsapp {
   position: fixed;
   top: 70%;
+  color: rgb(43, 208, 95);
+  font-size: 2em;
+  padding-inline: 20px;
 }
 .container-hero {
   background-color: #fffafa;
@@ -283,7 +290,34 @@ h2.linea span {
   padding-inline: 80px;
   padding-block: 50px;
 }
-
+/****************** FOOTER ***********************/
+footer {
+  background-color: var(--black);
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-lado-vacio {
+  width: 50%;
+}
+.footer-info-container {
+  width: 50%;
+  padding: 20px;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.info-icons {
+  display: flex;
+  flex-direction: column;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+}
+/*****************************************************/
+/*************************************************/
 /****************** catálogo **********************/
 
 .menu {
