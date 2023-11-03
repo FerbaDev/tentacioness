@@ -198,7 +198,7 @@ h2.linea span {
   background-color: #ececec;
 }
 
-/****************** SECCION OFERTAS ******************/
+/****************** SECCION TIENDA ******************/
 .tienda-container {
   display: flex;
   flex-direction: row;
@@ -357,5 +357,15 @@ h2.linea span {
   }
   .ofertas-p {
     font-size: 1.5em;
+  }
+  /****************** SECCION TIENDA ******************/
+  .foto-category {
+    height: 200px;
+  }
+  .cat-texto {
+    opacity: 1;
+  }
+  .foto-category p {
+    font-size: 0.8em;
   }
 }
