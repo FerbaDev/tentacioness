@@ -88,7 +88,7 @@ header {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   background-color: var(--white);
   width: 10%;
 }
@@ -98,6 +98,18 @@ header {
 .bi {
   font-size: 2em;
   padding-inline: 20px;
+}
+.bi-facebook {
+  position: fixed;
+  top: 50%;
+}
+.bi-instagram {
+  position: fixed;
+  top: 60%;
+}
+.bi-whatsapp {
+  position: fixed;
+  top: 70%;
 }
 .container-hero {
   background-color: #fffafa;
