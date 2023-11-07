@@ -293,7 +293,7 @@ h2.linea span {
 /****************** FOOTER ***********************/
 footer {
   background-color: var(--black);
-  height: 250px;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -309,7 +309,6 @@ footer {
   align-items: flex-start;
 }
 .info-dir {
-  height: 85%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -320,8 +319,6 @@ footer {
 .info-icons {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  height: 90%;
 }
 .icons {
   display: flex;
@@ -478,5 +475,63 @@ footer {
   .nos-texto {
     padding-inline: 20px;
     padding-block: 50px;
+  }
+  /****************** FOOTER ***********************/
+  footer {
+    flex-direction: column;
+  }
+  .footer-lado-vacio {
+    width: 100%;
+    color: var(--white);
+  }
+  .redes-movil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 20px;
+  }
+  .icons-show i {
+    font-size: 2em;
+  }
+  .footer-info-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .info-dir {
+    align-items: center;
+  }
+  .dir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto p {
+    margin-bottom: 0;
+  }
+  .info-icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    font-size: 1.2em;
+  }
+  .icons-hidden {
+    display: none;
+  }
+  .pago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 10px 0 5px 0;
+  }
+  .faq {
+    align-items: center;
+    padding-top: 0;
   }
 }
