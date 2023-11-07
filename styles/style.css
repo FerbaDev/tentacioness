@@ -312,7 +312,15 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  font-size: 1.2em;
+}
+
 .faq {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
