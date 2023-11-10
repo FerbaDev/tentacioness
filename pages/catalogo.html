@@ -10,7 +10,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
@@ -47,18 +50,13 @@
         role="tablist"
       >
         <li class="nav-item" role="presentation">
-          <button
+          <a
+            href="../index.html"
             class="nav-link active text-dark"
-            id="pills-home-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-home"
-            type="button"
-            role="tab"
-            aria-controls="pills-home"
             aria-selected="true"
           >
             Inicio
-          </button>
+          </a>
         </li>
         <li class="nav-item" role="presentation">
           <button
@@ -300,38 +298,93 @@
       </nav>
     </div>
     <!--  *********************************** MAIN  ******************************* -->
-
-    <h1>estoy en el catálogo</h1>
-    <div>
-      <ul class="menu">
-        <li>
-          <button id="todos" class="boton-menu boton-categoria active">
-            Todo
-          </button>
-        </li>
-        <li>
-          <button id="niños" class="boton-menu boton-categoria">Niños</button>
-        </li>
-        <li>
-          <button id="mujeres" class="boton-menu boton-categoria">
-            Mujeres
-          </button>
-        </li>
-        <li>
-          <button id="hombres" class="boton-menu boton-categoria">
-            Hombres
-          </button>
-        </li>
-      </ul>
-    </div>
     <main>
-      <h2 class="titulo-principal" id="titulo-principal">
-        Todos los productos
-      </h2>
-      <div id="contenedor-productos" class="contenedor-productos">
-        <!-- Esto se va a rellenar con JS -->
+      <div class="hero">
+        <ul class="redes">
+          <li><i class="bi bi-facebook facebook"></i></li>
+          <li><i class="bi bi-instagram instagram"></i></li>
+          <li><i class="bi bi-whatsapp whatsapp"></i></li>
+        </ul>
+
+        <div class="container-hero">
+          <h1>estoy en el catálogo</h1>
+          <div>
+            <ul class="menu">
+              <li>
+                <button id="todos" class="boton-menu boton-categoria active">
+                  Todo
+                </button>
+              </li>
+              <li>
+                <button id="niños" class="boton-menu boton-categoria">
+                  Niños
+                </button>
+              </li>
+              <li>
+                <button id="mujeres" class="boton-menu boton-categoria">
+                  Mujeres
+                </button>
+              </li>
+              <li>
+                <button id="hombres" class="boton-menu boton-categoria">
+                  Hombres
+                </button>
+              </li>
+            </ul>
+          </div>
+          <main>
+            <h2 class="titulo-principal" id="titulo-principal">
+              Todos los productos
+            </h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+              <!-- Esto se va a rellenar con JS -->
+            </div>
+          </main>
+        </div>
       </div>
     </main>
+    <footer>
+      <div class="footer-lado-vacio">
+        <div class="redes-movil">
+          <h4>Seguinos</h4>
+          <div class="icons icons-show">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info-container">
+        <div class="info-dir">
+          <div class="dir">
+            <h4>Dirección</h4>
+            <p>Cnel. Suarez 22. San Rafael. Mendoza</p>
+          </div>
+          <div class="contacto">
+            <h4>Contacto</h4>
+            <p>260-4028508</p>
+          </div>
+        </div>
+        <div class="info-icons">
+          <div class="icons icons-hidden">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+          <div class="pago">
+            <h6>Medios de pago</h6>
+            <div class="icons icons-pago">
+              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-cash-coin"></i>
+            </div>
+          </div>
+          <div class="faq">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Políticas y términos de uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- *********************** SCRIPTS ********************************* -->
     <script
