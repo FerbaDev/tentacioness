@@ -21,8 +21,10 @@ function cargarProductos(productosElegidos) {
             
             <div class="producto-detalles">
                 <img src=${producto.image} alt="" class="producto-imagen">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
+                <div class="producto-info">
+                  <h3 class="producto-titulo">${producto.titulo}</h3>
+                  <p class="producto-precio">$${producto.precio}</p>
+                </div>
                 
             </div>
         `;

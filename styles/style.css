@@ -352,6 +352,9 @@ footer {
   display: flex;
   gap: 1em;
   list-style: none;
+  justify-content: end;
+  padding-right: 20px;
+  background-color: #3c3c3c;
 }
 .boton-menu {
   background-color: var(--black);
@@ -361,6 +364,24 @@ footer {
 .boton-menu.active {
   background-color: var(--white);
   color: var(--black);
+}
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.producto-detalles {
+  width: 345px;
+  height: 650px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.producto-imagen {
+  width: 100%;
+  height: 500px;
+}
+.producto-info {
+  padding: 10px;
 }
 /*****************************************************/
 /*************************************************/
