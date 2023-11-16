@@ -468,8 +468,17 @@ footer {
     font-size: 1.5em;
   }
   /****************** SECCION TIENDA ******************/
+  .tienda-card {
+    padding-block: 50px;
+  }
+  .tienda-container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
   .foto-category {
-    width: 27%;
+    width: 35%;
     height: 200px;
   }
   .cat-texto {
@@ -478,9 +487,7 @@ footer {
   .foto-category p {
     font-size: 0.8em;
   }
-  .cat-fragancias {
-    display: none;
-  }
+
   /***************** NOSOTRAS ************************/
   .nosotras-container {
     padding-block: 20px;
