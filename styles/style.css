@@ -375,21 +375,25 @@ footer {
   .navbar-brand {
     font-family: var(--ff-title);
   }
-  header {
-    justify-content: center;
+  .logo-celus {
+    width: 50%;
   }
-  .banner-texto {
-    width: 90%;
-    height: 100%;
-    padding: 30px 20px 5px 20px;
-  }
-  .banner-texto h2 {
+  .nav-link {
     text-transform: uppercase;
-    font-family: var(--ff-title);
-  }
-  .banner-texto p {
     font-weight: bold;
+    width: 80%;
+    margin: auto;
   }
+  .bottom-line {
+    border-bottom: 1px solid var(--black);
+  }
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  header {
+    display: none;
+  }
+
   /*********************** main *******************************/
   /*********************** HERO *******************************/
   .hero {
