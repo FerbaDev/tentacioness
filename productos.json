@@ -1,33 +1,33 @@
 [
   {
-    "id": "abrigo-01",
-    "titulo": "Remera Niño",
-
+    "id": "short-01",
+    "titulo": "Short de jean cadenas",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700110415/tentacioness/short-jean_pc842d.jpg",
     "categoria": {
-      "nombre": "Niños",
-      "id": "niños"
+      "nombre": "Mujeres",
+      "id": "mujeres"
     },
-    "precio": 1000
+    "precio": 15000
   },
   {
-    "id": "abrigo-02",
-    "titulo": "Campera Niño",
-
+    "id": "pantalon-engomado-02",
+    "titulo": "Pantalón engomado negro",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700110429/tentacioness/pantalon-engomado_wmmkdo.jpg",
     "categoria": {
-      "nombre": "Niños",
-      "id": "niños"
+      "nombre": "Mujeres",
+      "id": "mujeres"
     },
-    "precio": 1000
+    "precio": 15000
   },
   {
-    "id": "abrigo-03",
-    "titulo": "Abrigo Niño",
-
+    "id": "jean-ancho-03",
+    "titulo": "Jean ancho",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700110424/tentacioness/jean-ancho_q4enz5.jpg",
     "categoria": {
-      "nombre": "Niños",
-      "id": "niños"
+      "nombre": "Mujeres",
+      "id": "mujeres"
     },
-    "precio": 1000
+    "precio": 20000
   },
   {
     "id": "abrigo-04",

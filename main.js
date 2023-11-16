@@ -20,6 +20,7 @@ function cargarProductos(productosElegidos) {
     div.innerHTML = `
             
             <div class="producto-detalles">
+                <img src=${producto.image} alt="" class="producto-imagen">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-precio">$${producto.precio}</p>
                 
