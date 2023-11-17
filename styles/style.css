@@ -354,16 +354,15 @@ footer {
   list-style: none;
   justify-content: end;
   padding-right: 20px;
-  background-color: #3c3c3c;
+  background-color: #eeeeee;
 }
 .boton-menu {
-  background-color: var(--black);
-  color: var(--white);
-  padding-inline: 10px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #eeeeee;
 }
 .boton-menu.active {
-  background-color: var(--white);
-  color: var(--black);
+  border-bottom: 2px solid var(--black);
 }
 .contenedor-productos {
   display: flex;
