@@ -367,8 +367,9 @@ footer {
 .contenedor-productos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 2em;
+  padding: 20px;
 }
 .producto-detalles {
   width: 345px;
@@ -384,6 +385,9 @@ footer {
 }
 .producto-info {
   padding: 10px;
+}
+.titulo-principal {
+  padding: 20px;
 }
 /*****************************************************/
 /*************************************************/
