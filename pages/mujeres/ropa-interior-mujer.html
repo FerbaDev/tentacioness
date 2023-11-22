@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../styles/style.css" />
+  </head>
+  <body>
+    <!-- ******************** HEADER ***************************** -->
+    <div class="">
+      <header>
+        <div class="banner-texto">
+          <h2>Tendencias que inspiran, calidad que perdura.</h2>
+          <p>Moda para todas las edades, estilos y tallas.</p>
+        </div>
+        <div class="banner-fotos-container">
+          <img
+            src="../../imagenes/banner1.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block"
+          />
+          <img
+            src="../../imagenes/banner2.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block d-lg-block"
+          />
+          <img
+            src="../../imagenes/banner3.jpeg"
+            alt=""
+            class="d-none d-md-none d-lg-block"
+          />
+        </div>
+      </header>
+      <!-- ******************** NAVBAR CELUS ***************************** -->
+      <nav class="navbar d-block d-md-none">
+        <div class="container-fluid d-flex flex-row justify-content-between">
+          <img
+            src="../imagenes/tentaciones-logo-negro.png"
+            alt=""
+            class="logo-celus ps-2"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-center bottom-line"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" href="#">Mujer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" href="#">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                  >Niños</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                  >Fragancias y Sahumerios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                  >Nosotras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center" aria-disabled="true"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--  *********************************** MAIN  ******************************* -->
+    <main>
+      <div class="hero">
+        <ul class="redes">
+          <li><i class="bi bi-facebook facebook"></i></li>
+          <li><i class="bi bi-instagram instagram"></i></li>
+          <li><i class="bi bi-whatsapp whatsapp"></i></li>
+        </ul>
+
+        <div class="container-hero">
+          <div>
+            <ul class="menu">
+              <li>
+                <button class="boton-menu boton-categoria active">
+                  <a href="../index.html">Home</a>
+                </button>
+              </li>
+              <li>
+                <button id="todos" class="boton-menu boton-categoria">
+                  Todo
+                </button>
+              </li>
+              <li>
+                <button id="mujeres" class="boton-menu boton-categoria">
+                  Mujeres
+                </button>
+              </li>
+              <li>
+                <button id="hombres" class="boton-menu boton-categoria">
+                  Hombres
+                </button>
+              </li>
+              <li>
+                <button id="niños" class="boton-menu boton-categoria">
+                  Niños
+                </button>
+              </li>
+            </ul>
+          </div>
+          <main>
+            <h2 class="titulo-principal" id="titulo-principal">Remeras</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+              <!-- Esto se va a rellenar con JS -->
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663361/tentacioness/mujeres/remeras/top-basico-negro_uy0dzm.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Top básico negro</h3>
+                  <p class="producto-precio">$7.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663361/tentacioness/mujeres/remeras/top-lentejuelas-rojo_b6t3ul.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Top lentejuelas rojo</h3>
+                  <p class="producto-precio">$5500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663360/tentacioness/mujeres/remeras/corset_bcxutx.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Corset</h3>
+                  <p class="producto-precio">$4.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663360/tentacioness/mujeres/remeras/musculosas-basicas_mdd6rk.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Musculosas básica</h3>
+                  <p class="producto-precio">$3700</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663346/tentacioness/mujeres/remeras/remera-princesa_lv330v.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Remeras manga princesa</h3>
+                  <p class="producto-precio">$6400</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663336/tentacioness/mujeres/remeras/bralette-engomado_gb2ahs.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Brallette engomado</h3>
+                  <p class="producto-precio">$4200</p>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-lado-vacio">
+        <div class="footer-logo">
+          <img src="../imagenes/tentaciones-logo-blanco.png" alt="" />
+        </div>
+        <div class="redes-movil">
+          <h4>Seguinos</h4>
+          <div class="icons icons-show">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info-container">
+        <div class="info-dir">
+          <div class="dir">
+            <h4>Dirección</h4>
+            <p>Cnel. Suarez 22. San Rafael. Mendoza</p>
+          </div>
+          <div class="contacto">
+            <h4>Contacto</h4>
+            <p>260-4028508</p>
+          </div>
+        </div>
+        <div class="info-icons">
+          <div class="icons icons-hidden">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+          </div>
+          <div class="pago">
+            <h6>Medios de pago</h6>
+            <div class="icons icons-pago">
+              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-cash-coin"></i>
+            </div>
+          </div>
+          <div class="faq">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Políticas y términos de uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- *********************** SCRIPTS ********************************* -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../main.js"></script>
+  </body>
+</html>
