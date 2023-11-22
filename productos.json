@@ -1,5 +1,55 @@
 [
   {
+    "id": "top-basico",
+    "titulo": "Top básico negro",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663361/tentacioness/mujeres/remeras/top-basico-negro_uy0dzm.jpg",
+    "categoria": {
+      "nombre": "Mujeres",
+      "id": "mujeres"
+    },
+    "precio": 7500
+  },
+  {
+    "id": "top-lente-rojo",
+    "titulo": "Top lentejuelas rojo",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663361/tentacioness/mujeres/remeras/top-lentejuelas-rojo_b6t3ul.jpg",
+    "categoria": {
+      "nombre": "Mujeres",
+      "id": "mujeres"
+    },
+    "precio": 5500
+  },
+  {
+    "id": "muesculosa-b",
+    "titulo": "Musculosa básica",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663360/tentacioness/mujeres/remeras/musculosas-basicas_mdd6rk.jpg",
+    "categoria": {
+      "nombre": "Mujeres",
+      "id": "mujeres"
+    },
+    "precio": 3700
+  },
+  {
+    "id": "rem-primcesa",
+    "titulo": "Remera manga princesa",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663346/tentacioness/mujeres/remeras/remera-princesa_lv330v.jpg",
+    "categoria": {
+      "nombre": "Mujeres",
+      "id": "mujeres"
+    },
+    "precio": 6400
+  },
+  {
+    "id": "brallette engomado",
+    "titulo": "Brallette engomado",
+    "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700663336/tentacioness/mujeres/remeras/bralette-engomado_gb2ahs.jpg",
+    "categoria": {
+      "nombre": "Mujeres",
+      "id": "mujeres"
+    },
+    "precio": 4200
+  },
+  {
     "id": "short-01",
     "titulo": "Short de jean cadenas",
     "image": "https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700110415/tentacioness/short-jean_pc842d.jpg",
@@ -30,59 +80,9 @@
     "precio": 20000
   },
   {
-    "id": "abrigo-04",
-    "titulo": "Pantalón Niño",
-
-    "categoria": {
-      "nombre": "Niños",
-      "id": "niños"
-    },
-    "precio": 1000
-  },
-  {
-    "id": "abrigo-05",
-    "titulo": "Chaleco Niño",
-
-    "categoria": {
-      "nombre": "Niños",
-      "id": "niños"
-    },
-    "precio": 1000
-  },
-  {
-    "id": "camiseta-01",
-    "titulo": "Remera Mujer",
-
-    "categoria": {
-      "nombre": "Mujeres",
-      "id": "mujeres"
-    },
-    "precio": 1000
-  },
-  {
-    "id": "camiseta-02",
-    "titulo": "Pantalón Mujer",
-
-    "categoria": {
-      "nombre": "Mujeres",
-      "id": "mujeres"
-    },
-    "precio": 1000
-  },
-  {
-    "id": "camiseta-03",
-    "titulo": "Buzo Mujer",
-
-    "categoria": {
-      "nombre": "Mujeres",
-      "id": "mujeres"
-    },
-    "precio": 1000
-  },
-  {
     "id": "camiseta-04",
     "titulo": "Joggin Mujer",
-
+    "image": "",
     "categoria": {
       "nombre": "Mujeres",
       "id": "mujeres"
@@ -92,7 +92,7 @@
   {
     "id": "camiseta-05",
     "titulo": "Jean Mujer",
-
+    "image": "",
     "categoria": {
       "nombre": "Mujeres",
       "id": "mujeres"
@@ -102,7 +102,7 @@
   {
     "id": "camiseta-06",
     "titulo": "Campera Mujer",
-
+    "image": "",
     "categoria": {
       "nombre": "Mujeres",
       "id": "mujeres"
@@ -112,7 +112,7 @@
   {
     "id": "camiseta-07",
     "titulo": "Camiseta Mujer",
-
+    "image": "",
     "categoria": {
       "nombre": "Mujeres",
       "id": "mujeres"
@@ -122,7 +122,7 @@
   {
     "id": "camiseta-08",
     "titulo": "Camisa Mujer",
-
+    "image": "",
     "categoria": {
       "nombre": "Mujeres",
       "id": "mujeres"
@@ -132,7 +132,7 @@
   {
     "id": "pantalon-01",
     "titulo": "Pantalón Hombre",
-
+    "image": "",
     "categoria": {
       "nombre": "Hombres",
       "id": "hombres"
@@ -142,7 +142,7 @@
   {
     "id": "pantalon-02",
     "titulo": "Remera Hombre",
-
+    "image": "",
     "categoria": {
       "nombre": "Hombres",
       "id": "hombres"
@@ -152,7 +152,7 @@
   {
     "id": "pantalon-03",
     "titulo": "Buzo Hombre",
-
+    "image": "",
     "categoria": {
       "nombre": "Hombres",
       "id": "hombres"
@@ -162,7 +162,7 @@
   {
     "id": "pantalon-04",
     "titulo": "Camisa Hombre",
-
+    "image": "",
     "categoria": {
       "nombre": "Hombres",
       "id": "hombres"
@@ -172,7 +172,7 @@
   {
     "id": "pantalon-05",
     "titulo": "Campera Hombre",
-
+    "image": "",
     "categoria": {
       "nombre": "Hombres",
       "id": "hombres"
