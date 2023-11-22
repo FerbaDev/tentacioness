@@ -333,7 +333,7 @@ footer {
 .icons {
   display: flex;
   flex-direction: row;
-  gap: 2em;
+  gap: 1em;
   font-size: 1.2em;
 }
 .pago {
