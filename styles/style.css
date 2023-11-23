@@ -600,4 +600,22 @@ footer {
     align-items: center;
     padding-top: 0;
   }
+  /*************************************************/
+  /****************** contacto **********************/
+
+  .contacto-container {
+    flex-direction: column;
+  }
+  .card-info-contacto {
+    width: 100%;
+    padding: 25px 30px;
+  }
+
+  .img-cont-container {
+    width: 100%;
+  }
+  .img-contacto {
+    border-radius: 32px;
+    padding: 25px;
+  }
 }
