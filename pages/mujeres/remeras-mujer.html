@@ -61,10 +61,14 @@ role="tablist"
 </li>
 <li class="nav-item" role="presentation">
   <button
-    class="nav-link text-dark"
-    id="pills-mujer-tab"
-
-    aria-selected="false"
+  class="nav-link text-dark"
+  id="pills-mujer-tab"
+  data-bs-toggle="pill"
+  data-bs-target="#pills-mujer"
+  type="button"
+  role="tab"
+  aria-controls="pills-mujer"
+  aria-selected="false"
   >
     Mujer
   </button>
@@ -157,7 +161,7 @@ role="tablist"
       <nav class="navbar d-block d-md-none">
         <div class="container-fluid d-flex flex-row justify-content-between">
           <img
-            src="../imagenes/tentaciones-logo-negro.png"
+            src="../../imagenes/tentaciones-logo-negro.png"
             alt=""
             class="logo-celus ps-2"
           />
@@ -182,8 +186,17 @@ role="tablist"
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-center bottom-line" href="#">Mujer</a>
+              <li class="nav-item text-center bottom-line">
+                <a class="nav-link" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Mujer</a>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <ul class="navbar-nav">
+                    <li><a href="../mujeres/remeras-mujer.html">Remeras</a></li>
+                    <li><a href="../mujeres/pantalones-mujer.html">Pantalones</a></li>
+                    <li><a href="#">Faldas</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Ropa interior</a></li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-center bottom-line" href="#">Hombre</a>

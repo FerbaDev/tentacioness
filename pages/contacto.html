@@ -52,11 +52,6 @@
           <button
             class="nav-link text-dark"
             id="pills-home-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-home"
-            type="button"
-            role="tab"
-            aria-controls="pills-home"
             aria-selected="false"
           >
             <a href="../../index.html">Inicio</a>
@@ -89,11 +84,6 @@
           <button
             class="nav-link text-dark"
             id="pills-ninios-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-ninios"
-            type="button"
-            role="tab"
-            aria-controls="pills-ninios"
             aria-selected="false"
           >
             Niños
@@ -103,11 +93,6 @@
           <button
             class="nav-link text-dark"
             id="pills-fragancias-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-fragancias"
-            type="button"
-            role="tab"
-            aria-controls="pills-fragancias"
             aria-selected="false"
           >
             Fragancias y Sahumerios
@@ -117,11 +102,6 @@
           <button
             class="nav-link text-dark"
             id="pills-nosotras-tab"
-            data-bs-toggle="pill"
-            data-bs-target="#pills-nosotras"
-            type="button"
-            role="tab"
-            aria-controls="pills-nosotras"
             aria-selected="false"
           >
             <a href="../index.html#nosotras">Nosotras</a>
@@ -153,20 +133,18 @@
               >
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="./mujeres/pantalones-mujer.html"
+              <a class="nav-link" href="../pages/mujeres/pantalones-mujer.html"
                 >Pantalones</a
               >
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="./mujeres/faldas.html">Faldas</a>
+              <a class="nav-link" href="#">Faldas</a>
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="./mujeres/vestidos.html">Vestidos</a>
+              <a class="nav-link" href="#">Vestidos</a>
             </li>
             <li class="nav-item active text-end px-2">
-              <a class="nav-link" href="./mujeres/ropa-interior-mujer.html"
-                >Ropa interior</a
-              >
+              <a class="nav-link" href="#">Ropa interior</a>
             </li>
           </ul>
         </div>
@@ -200,11 +178,42 @@
                   >Inicio</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-center bottom-line" href="#">Mujer</a>
+              <li class="nav-item text-center bottom-line">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                  >Mujer</a
+                >
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <ul class="navbar-nav">
+                    <li>
+                      <a href="../pages/mujeres/remeras-mujer.html">Remeras</a>
+                    </li>
+                    <li>
+                      <a href="../pages/mujeres/pantalones-mujer.html"
+                        >Pantalones</a
+                      >
+                    </li>
+                    <li><a href="#">Faldas</a></li>
+                    <li>
+                      <a href="#">Vestidos</a>
+                    </li>
+                    <li>
+                      <a href="#">Ropa interior</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center bottom-line" href="#">Hombre</a>
+                <a
+                  class="nav-link text-center bottom-line"
+                  href="../pages/hombres/hombre.html"
+                  >Hombre</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link text-center bottom-line" aria-disabled="true"
@@ -217,7 +226,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                <a
+                  href="../index.html#nosotras"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
                   >Nosotras</a
                 >
               </li>
