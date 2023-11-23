@@ -42,6 +42,9 @@ h1 {
 p {
   font-family: var(--ff-text);
 }
+.bold {
+  font-weight: bold;
+}
 
 /************* banner **************************/
 
@@ -379,6 +382,23 @@ footer {
 .contacto-container {
   display: flex;
   flex-direction: row;
+}
+.card-info-contacto {
+  width: 50%;
+  padding: 25px 70px;
+}
+.card-info-contacto h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  font-family: var(--ff-title);
+}
+.img-cont-container {
+  width: 50%;
+}
+.img-contacto {
+  border-radius: 52px;
+  padding: 30px;
 }
 
 /*****************************************************/
