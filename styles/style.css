@@ -346,24 +346,8 @@ footer {
 }
 /*****************************************************/
 /*************************************************/
-/****************** catálogo **********************/
+/****************** catálogos **********************/
 
-.menu {
-  display: flex;
-  gap: 1em;
-  list-style: none;
-  justify-content: end;
-  padding-right: 20px;
-  background-color: #eeeeee;
-}
-.boton-menu {
-  padding: 10px;
-  border: none;
-  border-bottom: 2px solid #eeeeee;
-}
-.boton-menu.active {
-  border-bottom: 2px solid var(--black);
-}
 .contenedor-productos {
   display: flex;
   flex-wrap: wrap;
@@ -389,6 +373,14 @@ footer {
 .titulo-principal {
   padding: 20px;
 }
+/*************************************************/
+/****************** contacto **********************/
+
+.contacto-container {
+  display: flex;
+  flex-direction: row;
+}
+
 /*****************************************************/
 /*************************************************/
 /*****************************************************/
