@@ -423,6 +423,13 @@ footer {
     width: 80%;
     margin: auto;
   }
+  .nav-mujeres {
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+  }
   .bottom-line {
     border-bottom: 1px solid var(--black);
   }
