@@ -50,7 +50,7 @@ p {
 
 header {
   max-width: 100%;
-  height: 250px;
+  height: 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -58,10 +58,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
   width: 40%;
   height: 100%;
-  padding: 70px 50px 0 50px;
+  padding-left: 50px;
 }
 .banner-texto h2 {
   text-transform: uppercase;
@@ -78,7 +78,7 @@ header {
 }
 .banner-fotos-container img {
   object-fit: contain;
-  height: 250px;
+  height: 200px;
 }
 
 /*********************** main *******************************/
@@ -360,13 +360,14 @@ footer {
 }
 .producto-detalles {
   width: 345px;
-  height: 550px;
+  height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
 .producto-imagen {
   width: 100%;
-  height: 400px;
+  height: 300px;
+  object-fit: cover;
   border-radius: 10px 10px 0 0;
   padding: 5px;
 }
@@ -429,6 +430,9 @@ footer {
     flex-direction: column;
     gap: 20px;
     font-size: 18px;
+  }
+  .navpills {
+    padding: 150px;
   }
   .bottom-line {
     border-bottom: 1px solid var(--black);
