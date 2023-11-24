@@ -50,7 +50,9 @@ p {
 .faqs {
   padding: 20px;
 }
-
+.ff-title {
+  font-family: var(--ff-title);
+}
 /************* banner **************************/
 
 header {
