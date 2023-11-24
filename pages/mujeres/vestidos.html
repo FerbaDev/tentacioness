@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vestidos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../styles/style.css" />
+  </head>
+  <body>
+    <!-- ******************** HEADER ***************************** -->
+    <div class="">
+      <header>
+        <div class="banner-texto">
+          <h2>Tendencias que inspiran, calidad que perdura.</h2>
+          <p>Moda para todas las edades, estilos y tallas.</p>
+        </div>
+        <div class="banner-fotos-container">
+          <img
+            src="../../imagenes/banner1.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block"
+          />
+          <img
+            src="../../imagenes/banner2.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block d-lg-block"
+          />
+          <img
+            src="../../imagenes/banner3.jpeg"
+            alt=""
+            class="d-none d-md-none d-lg-block"
+          />
+        </div>
+      </header>
+      <!-- ******************** NAVBAR DESKTOP ***************************** -->
+      <ul
+        class="bg-white py-1 px-4 nav nav-underline border-bottom justify-content-end d-none d-sm-none d-md-none d-lg-flex"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active text-dark"
+            id="pills-home-tab"
+            aria-selected="true"
+          >
+            <a href="../../index.html">Inicio</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-mujer-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-mujer"
+            type="button"
+            role="tab"
+            aria-controls="pills-mujer"
+            aria-selected="false"
+          >
+            Mujer
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="pills-hombre-tab">
+            <a href="../hombres/hombre.html">Hombres</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-ninios-tab"
+            aria-selected="false"
+          >
+            Niños
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-fragancias-tab"
+            aria-selected="false"
+          >
+            <a href="../fragancias.html">Fragancias y Sahumerios</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-nosotras-tab"
+            aria-selected="false"
+          >
+            <a href="../../index.html#nosotras">Nosotras</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-contacto-tab"
+            aria-selected="false"
+          >
+            <a href="../contacto.html">Contacto</a>
+          </button>
+        </li>
+      </ul>
+      <!-- ************* ACÄ EMPIEZAN LOS PILLS ********************* -->
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade px-5 py-1 bg-white"
+          id="pills-mujer"
+          role="tabpanel"
+          aria-labelledby="pills-mujer-tab"
+          tabindex="0"
+        >
+          <ul class="navbar-nav d-flex flex-row justify-content-end pe-5">
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/remeras-mujer.html"
+                >Remeras</a
+              >
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/pantalones-mujer.html"
+                >Pantalones</a
+              >
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/faldas.html">Faldas</a>
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/vestidos.html">Vestidos</a>
+            </li>
+            <li class="nav-item active text-end ps-2 pe-5">
+              <a class="nav-link" href="../mujeres/ropa-interior-mujer.html"
+                >Ropa interior</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ******************** NAVBAR CELUS ***************************** -->
+      <nav class="navbar d-block d-md-none">
+        <div class="container-fluid d-flex flex-row justify-content-between">
+          <img
+            src="../../imagenes/tentaciones-logo-negro.svg"
+            alt=""
+            class="logo-celus ps-2"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-center bottom-line"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item text-center bottom-line">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                  >Mujer</a
+                >
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <ul class="navbar-nav nav-mujeres">
+                    <li>
+                      <a href="../mujeres/remeras-mujer.html">Remeras</a>
+                    </li>
+                    <li>
+                      <a href="../mujeres/pantalones-mujer.html">Pantalones</a>
+                    </li>
+                    <li><a href="#">Faldas</a></li>
+                    <li>
+                      <a href="#">Vestidos</a>
+                    </li>
+                    <li>
+                      <a href="#">Ropa interior</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center bottom-line"
+                  href="../hombres/hombre.html"
+                  >Hombre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                  >Niños</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../fragancias.html"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
+                  >Fragancias y Sahumerios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../../index.html#nosotras"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
+                  >Nosotras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../contacto.html"
+                  class="nav-link text-center"
+                  aria-disabled="true"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--  *********************************** MAIN  ******************************* -->
+    <main>
+      <div class="hero">
+        <ul class="redes">
+          <li>
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="container-hero">
+          <div>
+            <h2 class="titulo-principal" id="titulo-principal">Vestidos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+              <!-- Esto se va a rellenar con JS -->
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836687/tentacioness/mujeres/vestidos/vestido-ngro_wt2k5o.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Vestido negro</h3>
+                  <p class="producto-precio">$17.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836695/tentacioness/mujeres/vestidos/vestido-rojo_brelyy.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Vestido rojo</h3>
+                  <p class="producto-precio">$25.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836717/tentacioness/mujeres/vestidos/vestidos-varios_jt1ac0.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">Vestidos</h3>
+                  <p class="producto-precio">$5.800</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-lado-vacio">
+        <div class="footer-logo">
+          <img src="../../imagenes/tentaciones-logo-blanco.png" alt="" />
+        </div>
+        <div class="redes-movil">
+          <h4>Seguinos</h4>
+          <div class="icons icons-show">
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info-container">
+        <div class="info-dir">
+          <div class="dir">
+            <h4>Dirección</h4>
+            <p>Cnel. Suarez 22. San Rafael. Mendoza</p>
+          </div>
+          <div class="contacto">
+            <h4>Contacto</h4>
+            <p>260-4028508</p>
+          </div>
+        </div>
+        <div class="info-icons">
+          <div class="icons icons-hidden">
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+          <div class="pago">
+            <h6>Medios de pago</h6>
+            <div class="icons icons-pago">
+              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-cash-coin"></i>
+            </div>
+          </div>
+          <div class="faq">
+            <a href="../preguntas-frecuentes.html">Preguntas frecuentes</a>
+            <a href="">Políticas y términos de uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- *********************** SCRIPTS ********************************* -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
