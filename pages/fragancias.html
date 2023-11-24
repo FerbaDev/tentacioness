@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- ******************** HEADER ***************************** -->
-    <div class="">
+    <div>
       <header>
         <div class="banner-texto">
           <h2>Tendencias que inspiran, calidad que perdura.</h2>
@@ -27,17 +27,17 @@
         <div class="banner-fotos-container">
           <img
             src="../../imagenes/banner1.jpeg"
-            alt=""
+            alt="img-banner-1"
             class="d-none d-sm-none d-md-block"
           />
           <img
             src="../../imagenes/banner2.jpeg"
-            alt=""
+            alt="img-banner-2"
             class="d-none d-sm-none d-md-block d-lg-block"
           />
           <img
             src="../../imagenes/banner3.jpeg"
-            alt=""
+            alt="img-banner-3"
             class="d-none d-md-none d-lg-block"
           />
         </div>
@@ -85,6 +85,7 @@
             class="nav-link text-dark"
             id="pills-ninios-tab"
             aria-selected="false"
+            disabled
           >
             Niños
           </button>
@@ -95,7 +96,7 @@
             id="pills-fragancias-tab"
             aria-selected="false"
           >
-            Fragancias y Sahumerios
+            <a href="../pages/fragancias.html">Fragancias y Sahumerios</a>
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -113,7 +114,7 @@
             id="pills-contacto-tab"
             aria-selected="false"
           >
-            <a href="#">Contacto</a>
+            <a href="./contacto.html">Contacto</a>
           </button>
         </li>
       </ul>
@@ -138,13 +139,12 @@
               >
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="#">Faldas</a>
+              <a class="nav-link" href="../pages/mujeres/faldas.html">Faldas</a>
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="#">Vestidos</a>
-            </li>
-            <li class="nav-item active text-end ps-2 pe-5">
-              <a class="nav-link" href="#">Ropa interior</a>
+              <a class="nav-link" href="../pages/mujeres/vestidos.html"
+                >Vestidos</a
+              >
             </li>
           </ul>
         </div>
@@ -154,7 +154,7 @@
         <div class="container-fluid d-flex flex-row justify-content-between">
           <img
             src="../imagenes/tentaciones-logo-negro.svg"
-            alt=""
+            alt="logo"
             class="logo-celus ps-2"
           />
           <button
@@ -198,12 +198,9 @@
                         >Pantalones</a
                       >
                     </li>
-                    <li><a href="#">Faldas</a></li>
+                    <li><a href="../pages/mujeres/faldas.html">Faldas</a></li>
                     <li>
-                      <a href="#">Vestidos</a>
-                    </li>
-                    <li>
-                      <a href="#">Ropa interior</a>
+                      <a href="../pages/mujeres/vestidos.html">Vestidos</a>
                     </li>
                   </ul>
                 </div>
@@ -221,7 +218,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                <a
+                  href="./fragancias.html"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
                   >Fragancias y Sahumerios</a
                 >
               </li>
@@ -234,7 +234,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" aria-disabled="true"
+                <a
+                  href="./contacto.html"
+                  class="nav-link text-center"
+                  aria-disabled="true"
                   >Contacto</a
                 >
               </li>
@@ -372,7 +375,7 @@
     <footer>
       <div class="footer-lado-vacio">
         <div class="footer-logo">
-          <img src="../imagenes/tentaciones-logo-blanco.png" alt="" />
+          <img src="../imagenes/tentaciones-logo-blanco.png" alt="logo" />
         </div>
         <div class="redes-movil">
           <h4>Seguinos</h4>
