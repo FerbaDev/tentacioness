@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap");
 
 *,
 *::before,
@@ -13,6 +14,7 @@
 :root {
   --white: #ececec;
   --black: #1c1c1c;
+  --ff-banner: "Vina Sans", sans-serif;
   --ff-title: "Dela Gothic One", sans-serif;
   --ff-text: "Montserrat", sans-serif;
 }
@@ -57,18 +59,22 @@ header {
 .banner-texto {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
 
-  width: 40%;
+  width: 50%;
   height: 100%;
   padding-left: 50px;
 }
 .banner-texto h2 {
   text-transform: uppercase;
-  font-family: var(--ff-title);
+  font-family: var(--ff-banner);
+  font-size: 3.8em;
+  line-height: 0.8;
 }
 .banner-texto p {
   font-weight: bold;
+  text-align: center;
+  padding-right: 100px;
 }
 .banner-fotos-container {
   max-height: 100%;
