@@ -321,6 +321,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 .redes-movil {
   display: none;
 }
@@ -331,6 +332,8 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  border-left: 2px solid white;
+  margin-block: 20px;
 }
 .info-dir {
   display: flex;
