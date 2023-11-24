@@ -415,6 +415,18 @@ footer {
   border-radius: 52px;
   padding: 30px;
 }
+/****************** contacto **********************/
+
+.card-info-politicas {
+  width: 90%;
+  padding: 25px 70px;
+}
+.card-info-politicas h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  font-family: var(--ff-title);
+}
 
 /*****************************************************/
 /*************************************************/

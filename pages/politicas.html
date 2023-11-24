@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Faldas</title>
+    <title>Políticas y términos de uso</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -50,9 +50,9 @@
       >
         <li class="nav-item" role="presentation">
           <button
-            class="nav-link active text-dark"
+            class="nav-link text-dark"
             id="pills-home-tab"
-            aria-selected="true"
+            aria-selected="false"
           >
             <a href="../../index.html">Inicio</a>
           </button>
@@ -72,8 +72,12 @@
           </button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link text-dark" id="pills-hombre-tab">
-            <a href="../hombres/hombre.html">Hombres</a>
+          <button
+            class="nav-link text-dark"
+            id="pills-hombre-tab"
+            aria-selected="true"
+          >
+            <a href="../pages/hombres/hombre.html">Hombre</a>
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -91,7 +95,7 @@
             id="pills-fragancias-tab"
             aria-selected="false"
           >
-            <a href="../fragancias.html">Fragancias y Sahumerios</a>
+            <a href="./fragancias.html">Fragancias y Sahumerios</a>
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -100,16 +104,16 @@
             id="pills-nosotras-tab"
             aria-selected="false"
           >
-            <a href="../../index.html#nosotras">Nosotras</a>
+            <a href="../index.html#nosotras">Nosotras</a>
           </button>
         </li>
         <li class="nav-item" role="presentation">
           <button
-            class="nav-link text-dark"
+            class="nav-link active text-dark"
             id="pills-contacto-tab"
             aria-selected="false"
           >
-            <a href="../contacto.html">Contacto</a>
+            <a href="./contacto.html">Contacto</a>
           </button>
         </li>
       </ul>
@@ -124,24 +128,21 @@
         >
           <ul class="navbar-nav d-flex flex-row justify-content-end pe-5">
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="../mujeres/remeras-mujer.html"
+              <a class="nav-link" href="../pages/mujeres/remeras-mujer.html"
                 >Remeras</a
               >
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="../mujeres/pantalones-mujer.html"
+              <a class="nav-link" href="../pages/mujeres/pantalones-mujer.html"
                 >Pantalones</a
               >
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="../mujeres/faldas.html">Faldas</a>
+              <a class="nav-link" href="../pages/mujeres/faldas.html">Faldas</a>
             </li>
             <li class="nav-item text-end px-2">
-              <a class="nav-link" href="../mujeres/vestidos.html">Vestidos</a>
-            </li>
-            <li class="nav-item active text-end ps-2 pe-5">
-              <a class="nav-link" href="../mujeres/ropa-interior-mujer.html"
-                >Ropa interior</a
+              <a class="nav-link" href="../pages/mujeres/vestidos.html"
+                >Vestidos</a
               >
             </li>
           </ul>
@@ -151,8 +152,8 @@
       <nav class="navbar d-block d-md-none">
         <div class="container-fluid d-flex flex-row justify-content-between">
           <img
-            src="../../imagenes/tentaciones-logo-negro.svg"
-            alt="logo"
+            src="../imagenes/tentaciones-logo-negro.svg"
+            alt=""
             class="logo-celus ps-2"
           />
           <button
@@ -172,7 +173,7 @@
                 <a
                   class="nav-link active text-center bottom-line"
                   aria-current="page"
-                  href="../../index.html"
+                  href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -189,14 +190,16 @@
                 <div class="collapse multi-collapse" id="multiCollapseExample1">
                   <ul class="navbar-nav nav-mujeres">
                     <li>
-                      <a href="../mujeres/remeras-mujer.html">Remeras</a>
+                      <a href="../pages/mujeres/remeras-mujer.html">Remeras</a>
                     </li>
                     <li>
-                      <a href="../mujeres/pantalones-mujer.html">Pantalones</a>
+                      <a href="../pages/mujeres/pantalones-mujer.html"
+                        >Pantalones</a
+                      >
                     </li>
-                    <li><a href="../mujeres/faldas.html">Faldas</a></li>
+                    <li><a href="../pages/mujeres/faldas.html">Faldas</a></li>
                     <li>
-                      <a href="../mujeres/vestidos.html">Vestidos</a>
+                      <a href="../pages/mujeres/vestidos.html">Vestidos</a>
                     </li>
                   </ul>
                 </div>
@@ -204,7 +207,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link text-center bottom-line"
-                  href="../hombres/hombre.html"
+                  href="../pages/hombres/hombre.html"
                   >Hombre</a
                 >
               </li>
@@ -215,7 +218,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="../fragancias.html"
+                  href="./fragancias.html"
                   class="nav-link text-center bottom-line"
                   aria-disabled="true"
                   >Fragancias y Sahumerios</a
@@ -223,7 +226,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="../../index.html#nosotras"
+                  href="../index.html#nosotras"
                   class="nav-link text-center bottom-line"
                   aria-disabled="true"
                   >Nosotras</a
@@ -231,7 +234,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="../contacto.html"
+                  href="./contacto.html"
                   class="nav-link text-center"
                   aria-disabled="true"
                   >Contacto</a
@@ -248,9 +251,7 @@
       <div class="hero">
         <ul class="redes">
           <li>
-            <a
-              href="https://www.facebook.com/tienda.tentacioness"
-              target="_blank"
+            <a href="https://www.facebook.com/tienda.tentacioness"
               ><i class="bi bi-facebook facebook"></i
             ></a>
           </li>
@@ -269,65 +270,102 @@
             ></a>
           </li>
         </ul>
-
         <div class="container-hero">
-          <div>
-            <h2 class="titulo-principal" id="titulo-principal">Faldas</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-              <!-- Esto se va a rellenar con JS -->
-              <div class="producto-detalles">
-                <img
-                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836662/tentacioness/mujeres/faldas/falda-negra_mgghmf.jpg"
-                  alt=""
-                  class="producto-imagen"
-                />
-                <div class="producto-info">
-                  <h3 class="producto-titulo">Falda negra</h3>
-                  <p class="producto-precio">$9.800</p>
+          <section class="contacto-container">
+            <div class="card-info-politicas">
+              <h2>Políticas y términos de uso</h2>
+              <div>
+                <div>
+                  <p>
+                    <span class="bold">Período de Devolución: </span>Tienes un
+                    plazo de 20 días a partir de la fecha de compra para
+                    realizar devoluciones.
+                  </p>
                 </div>
-              </div>
-              <div class="producto-detalles">
-                <img
-                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836641/tentacioness/mujeres/faldas/falda-plata_kub0ou.jpg"
-                  alt=""
-                  class="producto-imagen"
-                />
-                <div class="producto-info">
-                  <h3 class="producto-titulo">Falda plata</h3>
-                  <p class="producto-precio">$13.900</p>
+                <div>
+                  <p>
+                    <span class="bold">Condiciones de Devolución: </span>Los
+                    artículos deben estar en su estado original, sin usar y con
+                    las etiquetas originales. No se aceptarán devoluciones de
+                    artículos dañados por el usuario. Las devoluciones de ropa
+                    íntima y productos de cuidado personal solo se aceptarán si
+                    el paquete está sin abrir por razones de higiene.
+                  </p>
                 </div>
-              </div>
-              <div class="producto-detalles">
-                <img
-                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700836619/tentacioness/mujeres/faldas/falda-jean_yi48tz.jpg"
-                  alt=""
-                  class="producto-imagen"
-                />
-                <div class="producto-info">
-                  <h3 class="producto-titulo">Falda jean</h3>
-                  <p class="producto-precio">$18.000</p>
+                <div>
+                  <p>
+                    <span class="bold">Proceso de Devolución: </span>Para
+                    iniciar una devolución, comunícate con nuestro servicio al
+                    cliente a través de [dirección de correo electrónico o
+                    número de teléfono] para recibir instrucciones y un número
+                    de autorización de devolución. Empaqueta los artículos de
+                    manera segura junto con la factura original y el número de
+                    autorización de devolución claramente indicado en el
+                    paquete.
+                  </p>
                 </div>
-              </div>
-              <div class="producto-detalles">
-                <img
-                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1700837389/tentacioness/mujeres/faldas/falda-brillos-2_wyyd9g.jpg"
-                  alt=""
-                  class="producto-imagen"
-                />
-                <div class="producto-info">
-                  <h3 class="producto-titulo">Falda brillos</h3>
-                  <p class="producto-precio">$13.500</p>
+                <div>
+                  <p>
+                    <span class="bold">Costo de Devolución: </span>Los costos de
+                    envío de devolución serán responsabilidad del cliente, a
+                    menos que la devolución sea el resultado de un error por
+                    parte de "Tienda Tentaciones" o si los productos recibidos
+                    están defectuosos.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <span class="bold">Inspección y Reembolso: </span>Todos los
+                    artículos devueltos serán inspeccionados a su llegada. Los
+                    artículos que no cumplan con las condiciones de devolución
+                    serán devueltos al remitente. Una vez aprobada la
+                    devolución, procesaremos el reembolso a través del mismo
+                    método de pago utilizado en la compra original.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <span class="bold">Devoluciones en Tienda Física: </span>Las
+                    devoluciones también pueden realizarse en nuestra tienda
+                    física presentando la factura de compra y los artículos en
+                    su estado original.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <span class="bold">Excepciones: </span>No aceptamos
+                    devoluciones de tarjetas de regalo. Artículos comprados
+                    durante eventos especiales de liquidación o con descuentos
+                    significativos pueden estar sujetos a políticas de
+                    devolución especiales.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <span class="bold">Cambios: </span>Actualmente, no ofrecemos
+                    cambios directos. Si deseas un artículo diferente, te
+                    recomendamos realizar una devolución y realizar una nueva
+                    compra.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <span class="bold">Atención al Cliente: </span>Para
+                    cualquier pregunta adicional o para obtener asistencia, no
+                    dudes en contactarnos en nuestras redes o el teléfono que
+                    figura en la pagina web.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </main>
     <footer>
       <div class="footer-lado-vacio">
         <div class="footer-logo">
-          <img src="../../imagenes/tentaciones-logo-blanco.png" alt="logo" />
+          <img src="../imagenes/tentaciones-logo-blanco.png" alt="logo" />
         </div>
         <div class="redes-movil">
           <h4>Seguinos</h4>
@@ -387,8 +425,8 @@
             </div>
           </div>
           <div class="faq">
-            <a href="../preguntas-frecuentes.html">Preguntas frecuentes</a>
-            <a href="../politicas.html">Políticas y términos de uso</a>
+            <a href="./preguntas-frecuentes.html">Preguntas frecuentes</a>
+            <a href="">Políticas y términos de uso</a>
           </div>
         </div>
       </div>
