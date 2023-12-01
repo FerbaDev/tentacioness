@@ -602,6 +602,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    border: none;
   }
   .info-dir {
     align-items: center;
