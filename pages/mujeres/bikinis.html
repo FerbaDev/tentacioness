@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bikinis</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../styles/style.css" />
+  </head>
+  <body>
+    <!-- ******************** HEADER ***************************** -->
+    <div>
+      <header>
+        <div class="banner-texto">
+          <h2>Tendencias que inspiran, calidad que perdura.</h2>
+          <p>Moda para todas las edades, estilos y tallas.</p>
+        </div>
+        <div class="banner-fotos-container">
+          <img
+            src="../../imagenes/banner1.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block"
+          />
+          <img
+            src="../../imagenes/banner2.jpeg"
+            alt=""
+            class="d-none d-sm-none d-md-block d-lg-block"
+          />
+          <img
+            src="../../imagenes/banner3.jpeg"
+            alt=""
+            class="d-none d-md-none d-lg-block"
+          />
+        </div>
+      </header>
+      <!-- ******************** NAVBAR DESKTOP ***************************** -->
+      <ul
+        class="bg-white py-1 px-4 nav nav-underline border-bottom justify-content-end d-none d-sm-none d-md-none d-lg-flex"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active text-dark"
+            id="pills-home-tab"
+            aria-selected="true"
+          >
+            <a href="../../index.html">Inicio</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-mujer-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-mujer"
+            type="button"
+            role="tab"
+            aria-controls="pills-mujer"
+            aria-selected="false"
+          >
+            Mujer
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-dark" id="pills-hombre-tab">
+            <a href="../hombres/hombre.html">Hombres</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-ninios-tab"
+            aria-selected="false"
+          >
+            Niños
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-fragancias-tab"
+            aria-selected="false"
+          >
+            <a href="../fragancias.html">Fragancias y Sahumerios</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-nosotras-tab"
+            aria-selected="false"
+          >
+            <a href="../../index.html#nosotras">Nosotras</a>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link text-dark"
+            id="pills-contacto-tab"
+            aria-selected="false"
+          >
+            <a href="../contacto.html">Contacto</a>
+          </button>
+        </li>
+      </ul>
+      <!-- ************* ACÄ EMPIEZAN LOS PILLS ********************* -->
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade px-5 py-1 bg-white"
+          id="pills-mujer"
+          role="tabpanel"
+          aria-labelledby="pills-mujer-tab"
+          tabindex="0"
+        >
+          <ul class="navbar-nav d-flex flex-row justify-content-end pe-5">
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/remeras-mujer.html"
+                >Remeras</a
+              >
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/pantalones-mujer.html"
+                >Pantalones</a
+              >
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/faldas.html">Faldas</a>
+            </li>
+            <li class="nav-item text-end px-2">
+              <a class="nav-link" href="../mujeres/vestidos.html">Vestidos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ******************** NAVBAR CELUS ***************************** -->
+      <nav class="navbar d-block d-md-none">
+        <div class="container-fluid d-flex flex-row justify-content-between">
+          <img
+            src="../../imagenes/tentaciones-logo-negro.svg"
+            alt="logo"
+            class="logo-celus ps-2"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-center bottom-line"
+                  aria-current="page"
+                  href="../../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item text-center bottom-line">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                  >Mujer</a
+                >
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <ul class="navbar-nav nav-mujeres">
+                    <li>
+                      <a href="../mujeres/remeras-mujer.html">Remeras</a>
+                    </li>
+                    <li>
+                      <a href="../mujeres/pantalones-mujer.html">Pantalones</a>
+                    </li>
+                    <li><a href="../mujeres/faldas.html">Faldas</a></li>
+                    <li>
+                      <a href="../mujeres/vestidos.html">Vestidos</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-center bottom-line"
+                  href="../hombres/hombre.html"
+                  >Hombre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-center bottom-line" aria-disabled="true"
+                  >Niños</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../fragancias.html"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
+                  >Fragancias y Sahumerios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../../index.html#nosotras"
+                  class="nav-link text-center bottom-line"
+                  aria-disabled="true"
+                  >Nosotras</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../contacto.html"
+                  class="nav-link text-center"
+                  aria-disabled="true"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--  *********************************** MAIN  ******************************* -->
+    <main>
+      <div class="hero">
+        <ul class="redes">
+          <li>
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+
+        <div class="container-hero">
+          <div>
+            <h2 class="titulo-principal" id="titulo-principal">Bikinis</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+              <!-- Esto se va a rellenar con JS -->
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750319/tentacioness/bikinis/1_cy2hwu.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$4.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750322/tentacioness/bikinis/2_hwxizj.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$4.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750324/tentacioness/bikinis/3_gl6zu8.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$4.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750327/tentacioness/bikinis/4_g7xydi.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750316/tentacioness/bikinis/33_upt7cg.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750313/tentacioness/bikinis/44_qvxvdv.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750310/tentacioness/bikinis/55_zgjxjs.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750307/tentacioness/bikinis/66_ska3dp.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750301/tentacioness/bikinis/88_tand57.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750304/tentacioness/bikinis/77_ftao4z.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750298/tentacioness/bikinis/99_p29qcx.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750295/tentacioness/bikinis/0_ywh9gh.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750293/tentacioness/bikinis/9_otxgto.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750289/tentacioness/bikinis/8_e2zva9.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750288/tentacioness/bikinis/7_q4ocfq.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750284/tentacioness/bikinis/6_qyla04.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750283/tentacioness/bikinis/5_qluaw1.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio"></p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750937/tentacioness/bikinis/6_gefav5.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$18.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750936/tentacioness/bikinis/3_st9ore.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$24.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750937/tentacioness/bikinis/5_v7jzfg.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$18.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750936/tentacioness/bikinis/2_dq1xsk.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$22.500</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750936/tentacioness/bikinis/1_aishmu.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$22.000</p>
+                </div>
+              </div>
+              <div class="producto-detalles">
+                <img
+                  src="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1701750936/tentacioness/bikinis/4_rwijzx.jpg"
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo"></h3>
+                  <p class="producto-precio">$25.000</p>
+                </div>
+              </div>
+              <!-- <div class="producto-detalles">
+                <img
+                  src=""
+                  alt=""
+                  class="producto-imagen"
+                />
+                <div class="producto-info">
+                  <h3 class="producto-titulo">xxxxxx</h3>
+                  <p class="producto-precio">$xxxxxx</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-lado-vacio">
+        <div class="footer-logo">
+          <img src="../../imagenes/tentaciones-logo-blanco.png" alt="logo" />
+        </div>
+        <div class="redes-movil">
+          <h4>Seguinos</h4>
+          <div class="icons icons-show">
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-info-container">
+        <div class="info-dir">
+          <div class="dir">
+            <h4>Dirección</h4>
+            <p>Cnel. Suarez 22. San Rafael. Mendoza</p>
+          </div>
+          <div class="contacto">
+            <h4>Contacto</h4>
+            <p>260-4028508</p>
+          </div>
+        </div>
+        <div class="info-icons">
+          <div class="icons icons-hidden">
+            <a
+              href="https://www.facebook.com/tienda.tentacioness"
+              target="_blank"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/tienda.tentacioness/"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/5492604027148?text=¡Hola+chicas!+Quiero+hacer+una+consulta."
+              target="_blank"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+          </div>
+          <div class="pago">
+            <h6>Medios de pago</h6>
+            <div class="icons icons-pago">
+              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-cash-coin"></i>
+            </div>
+          </div>
+          <div class="faq">
+            <a href="../preguntas-frecuentes.html">Preguntas frecuentes</a>
+            <a href="../politicas.html">Políticas y términos de uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- *********************** SCRIPTS ********************************* -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
