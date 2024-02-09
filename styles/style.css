@@ -53,6 +53,9 @@ p {
 .ff-title {
   font-family: var(--ff-title);
 }
+.padd-20 {
+  padding: 20px;
+}
 /************* banner **************************/
 
 header {
@@ -136,7 +139,7 @@ header {
   background-color: #fffafa;
   width: 85%;
 }
-/****************** SECCION OFERTAS ******************/
+/****************** banner OFERTAS ******************/
 .hero-card {
   padding-block: 50px;
 }
@@ -166,7 +169,7 @@ h2.linea span {
   background: #fffafa;
   padding: 0 15px;
 }
-/*************** bannner ofertas ************************/
+
 .ofertas-container {
   display: flex;
   flex-direction: column;
@@ -430,6 +433,10 @@ footer {
   font-family: var(--ff-title);
 }
 /****************** seccion ofertas **********************/
+.tit1 {
+  font-size: 3em;
+  text-align: center;
+}
 .tit2 {
   font-size: 4em;
 }
@@ -440,6 +447,54 @@ footer {
   padding: 15px;
   font-size: 1.5em;
   border-radius: 5px;
+}
+.parpadea {
+  text-align: center;
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*****************************************************/
@@ -669,5 +724,13 @@ footer {
   .img-contacto {
     border-radius: 32px;
     padding: 25px;
+  }
+  /******************** seccion ofertas *************************/
+  /****************** seccion ofertas **********************/
+  .tit1 {
+    font-size: 2em;
+  }
+  .tit2 {
+    font-size: 1.5em;
   }
 }
