@@ -236,6 +236,18 @@ h2.linea span {
 .now {
   background-color: #ececec;
 }
+.banner-novedades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 30px;
+}
+.novedades {
+  background-color: #1c1c1c;
+  color: #ececec;
+  padding: 20px;
+  font-size: 1.5em;
+}
 
 /****************** SECCION TIENDA ******************/
 .tienda-container {
@@ -449,7 +461,6 @@ footer {
   border-radius: 5px;
 }
 .parpadea {
-  text-align: center;
   animation-name: parpadeo;
   animation-duration: 1s;
   animation-timing-function: linear;
@@ -496,6 +507,7 @@ footer {
     opacity: 1;
   }
 }
+/**************** novedades ***********************/
 
 /*****************************************************/
 /*************************************************/
