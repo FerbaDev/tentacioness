@@ -429,6 +429,18 @@ footer {
   padding-bottom: 30px;
   font-family: var(--ff-title);
 }
+/****************** seccion ofertas **********************/
+.tit2 {
+  font-size: 4em;
+}
+
+.whatsapp-boton {
+  background-color: #64d448;
+  color: white;
+  padding: 15px;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
 
 /*****************************************************/
 /*************************************************/
